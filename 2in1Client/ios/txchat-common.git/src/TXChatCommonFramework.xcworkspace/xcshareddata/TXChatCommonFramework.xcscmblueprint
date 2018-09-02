@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1899C0923C0587E63C48003574F1A7BD484B2F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F04F4E064C197F8F15077708EF3881D43E03EE84" : 0,
+    "F1899C0923C0587E63C48003574F1A7BD484B2F3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A666F2F7-A413-4805-8BDA-0F03FE71DAE7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F04F4E064C197F8F15077708EF3881D43E03EE84" : "txchat_ios_common_framework",
+    "F1899C0923C0587E63C48003574F1A7BD484B2F3" : "TXChat_iOS_Common"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TXChatCommonFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/TXChatCommonFramework.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/182.92.236.193\/lingqing.wan\/txchat_ios_common_framework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F04F4E064C197F8F15077708EF3881D43E03EE84"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/182.92.236.193\/ios\/txchat-common.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1899C0923C0587E63C48003574F1A7BD484B2F3"
+    }
+  ]
+}

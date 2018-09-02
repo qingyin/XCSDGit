@@ -1,0 +1,34 @@
+//汇报游戏结果
+/game/result
+	required int64 userId = 1;		//孩子ID！！
+	required int32 gameId = 2;
+	required int32 level = 3;		//关卡
+	required int32 stars = 4;
+	required int32 score = 5;		//得分
+	optional int32 status = 6;		//预留，目前不需要传
+	optional int32 correctCnt = 7;	//正确数量
+	optional int32 totalCnt = 8;	//总数量
+	optional int32 costTime = 9;	//花费时间
+	
+//获取用户关卡成绩
+/game/scores
+	required int64 userId = 1;		//孩子ID！！
+	required int32 gameId = 2;
+	
+
+//获取用户测试
+/game_test
+	required int64 userId = 1;		//孩子ID！！
+
+//汇报测试结果
+/game_test/result
+	required int64 testId = 1;
+	repeated UserTestDetail testList = 1;
+	UserTestDetail {
+		required int64 id = 1;				//测试明细ID，获取测试时会有
+		required int32 abilityId = 2;		//能力ID
+		optional int32 abilityLevel = 3;	//能力等级，首测结果必须传
+		required int32 gameId = 4;
+		required int32 level = 5;			//关卡
+		required int32 result = 6;			//测试结果 1通过 1不通过
+	}

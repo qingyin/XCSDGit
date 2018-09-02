@@ -1,0 +1,29 @@
+//获取作业明细
+/homework/detail
+	required int64 memberId = 1;		//作业成员ID
+	
+//获取作业生成明细
+/homework/generate_detail
+	required int64 classId = 1;
+	required int64 childUserId = 2;	//孩子ID！！
+	
+
+//汇报作业结果
+/homework/result
+	required int64 memberId = 1;		//作业成员ID
+	repeated GameResult resultList = 2;
+	GameResult {
+		required int64 id = 1;				//作业明细ID，获取作业时会有
+		required int32 gameId = 2;
+		required int32 level = 3;			//关卡
+		required int32 stars = 4;
+		required int32 score = 5;		//得分
+	}
+
+//发送统一作业
+/homework/send_unified
+	后面补
+
+//获得用户能力评价
+/learning_ability
+	required int64 userId = 1;		//这个是家长用户ID！！！

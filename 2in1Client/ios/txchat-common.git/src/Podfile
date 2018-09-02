@@ -1,0 +1,14 @@
+platform :ios,'7.0'
+
+source 'https://gitcafe.com/akuandev/Specs.git'
+
+pod 'RDVTabBarController'
+pod 'Masonry'
+pod 'SDiPhoneVersion', '~> 1.1.1'
+pod 'NJKWebViewProgress'
+pod 'Reachability'
+pod 'MBProgressHUD'
+pod 'CocoaLumberjack', '~> 2.0.0'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'AFDownloadRequestOperation', '2.0.1'
+pod 'MMPopupView'
